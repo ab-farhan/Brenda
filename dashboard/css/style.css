@@ -1,0 +1,231 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');*/
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  overflow-x: hidden;
+  /*	font-family: 'Open Sans', sans-serif;*/
+  font-family: "Rajdhani", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, ol, ul,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+/*header part start here */
+.header_full {
+  padding: 30px 0;
+  background: #4D6299;
+}
+
+/*header part end here */
+/*content part start here  */
+.sidebar_part {
+  background: #252c34;
+  color: #ccc;
+  min-height: 600px;
+}
+
+/* user_part start here */
+.user_part {
+  padding: 20px 0 10px;
+  margin: 0 -15px;
+  border-bottom: 1px solid #17181F;
+}
+
+.user_part img {
+  height: 80px;
+  width: 80px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.user_part h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 5px 0 0;
+  text-transform: capitalize;
+}
+
+.user_part p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.user_part p i {
+  color: green;
+  font-size: 11px;
+}
+
+/* user_part end here */
+/*menu_bar start here*/
+.menu_bar {
+  margin: 0 -15px;
+}
+
+.menu_bar ul li a {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 35px;
+  display: block;
+  border-bottom: 1px solid #17181F;
+  padding-left: 10px;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.menu_bar ul li a i {
+  padding-right: 5px;
+}
+
+.menu_bar ul li a:hover {
+  background: #FABC3D;
+  color: #2B2D37;
+}
+
+/*
+.menu_bar ul li.about_hvr {
+	position: relative;
+	display: block;
+}
+
+.menu_bar ul li.about_hvr ul.feature {
+	position: absolute;
+	bottom: -1;
+	left: 0;
+	display: none;
+
+
+}
+
+.menu_bar ul li.about_hvr:hover ul.feature {
+	display: block;
+}
+*/
+/*menu_bar end here*/
+/*bread cum stat here */
+.bread_cum {
+  padding: 15px 0;
+  background: #f7f7f7;
+}
+
+.bread_cum ul li {
+  float: left;
+  padding-right: 5px;
+}
+
+.bread_cum ul li a {
+  color: #17181F;
+  font-size: 16px;
+  display: inline-block;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.bread_cum ul li a:hover {
+  color: #4D6299;
+}
+
+/*bread cum stat here */
+/*main content start here */
+.main_content_part {
+  margin-top: 20px;
+}
+
+span.f_require {
+  color: red;
+}
+
+label.error {
+  color: red;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  margin-bottom: 0px;
+}
+
+/*main content end here */
+/*content part end here  */
+/*login_part start here  */
+.login_part {
+  margin-top: 130px
+}
+
+.login_part a:hover {
+  text-decoration: underline;
+}
+
+/*login_part end here  */
+/*viwe-user start here  */
+.card_header_title h5 {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.card-header a {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+table.viwe_table tr td:first-child {
+  font-weight: bold;
+  text-align: right;
+  width: 30%;
+}
+
+table.viwe_table tr td:last-child {
+  width: 65%;
+  text-align: left;
+}
+
+/*viwe_table end here  */
+/*custom_form part start*/
+.custom_form label {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.submit_btn {
+  font-weight: 600;
+  font-size: 20px
+}
+
+/*custom_form part end*/
+/*footer_part start here  */
+.footer_part {
+  padding: 25px;
+  background: #16171D;
+  ;
+}
+
+/*footer_part end here  */
